@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Computer Science Department</title>
+</head>
+<body>
+    <h1>Computer Science Department</h1>
+    <p>Welcome to the Department of Computer Science! Explore our faculty, labs, and academic resources.</p>
+
+    <h2>Faculty Members</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Designation</th>
+            <th>Qualification</th>
+        </tr>
+        <tr>
+            <td>Dr. A. Kumar</td>
+            <td>HOD</td>
+            <td>Ph.D</td>
+        </tr>
+        <tr>
+            <td>Ms. B. Rani</td>
+            <td>Assistant Professor</td>
+            <td>M.Tech</td>
+        </tr>
+    </table>
+
+    <h2>Labs & Events</h2>
+    <img src="/images/lab.jpg" alt="Computer Lab" width="400">
+
+    <h3>Resources:</h3>
+    <ul>
+        <li><a href="/uploads/syllabus.pdf" target="_blank">Download Syllabus</a></li>
+        <li><a href="/uploads/timetable.pdf" target="_blank">Download Timetable</a></li>
+    </ul>
+
+    <h3>Student Feedback</h3>
+    <form action="/feedback" method="POST">
+        <label>Name: <input type="text" name="name" required></label><br><br>
+        <label>Email: <input type="email" name="email" required></label><br><br>
+        <label>Message:<br><textarea name="message" rows="4" cols="40" required></textarea></label><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

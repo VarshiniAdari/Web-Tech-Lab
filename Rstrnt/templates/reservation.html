@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head><title>Reserve a Table - DelishBite</title></head>
+<body>
+    <h1>Reserve a Table</h1>
+
+    <nav>
+        <a href="/">About Us</a> |
+        <a href="/menu">Menu</a> |
+        <a href="/reservation">Reserve</a>
+    </nav>
+
+    <form method="POST">
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Date:</label><br>
+        <input type="date" name="date" required><br><br>
+
+        <label>Time:</label><br>
+        <input type="time" name="time" required><br><br>
+
+        <label>Number of Guests:</label><br>
+        <input type="number" name="guests" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

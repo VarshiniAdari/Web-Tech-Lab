@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Development Course</title>
+</head>
+<body>
+    <h1>Web Development Bootcamp</h1>
+    <p>This course offers a hands-on learning experience in HTML, CSS, JavaScript, and backend development.</p>
+
+    <h2>Course Modules</h2>
+    <ol>
+        <li>Introduction to HTML & CSS</li>
+        <li>JavaScript Basics</li>
+        <li>Frontend Frameworks</li>
+        <li>Backend Development with PHP</li>
+        <li>Database with MySQL</li>
+    </ol>
+
+    <h2>Instructor</h2>
+    <img src="instructor.jpg" width="150" alt="Instructor">
+    <p><strong>John Doe</strong> is a full-stack web developer with 10+ years of experience in teaching and real-world projects.</p>
+
+    <h2>Course Schedule</h2>
+    <table border="1">
+        <tr>
+            <th>Module</th>
+            <th>Date</th>
+            <th>Duration</th>
+        </tr>
+        <tr>
+            <td>HTML & CSS</td>
+            <td>2025-04-15</td>
+            <td>3 Days</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>2025-04-18</td>
+            <td>4 Days</td>
+        </tr>
+        <tr>
+            <td>PHP + MySQL</td>
+            <td>2025-04-22</td>
+            <td>5 Days</td>
+        </tr>
+    </table>
+
+    <h2>Enroll Now</h2>
+    <form action="enroll.php" method="POST">
+        <label>Name: <input type="text" name="name" required></label><br><br>
+        <label>Email: <input type="email" name="email" required></label><br><br>
+        <label>Course Preference:
+            <select name="preference">
+                <option value="Frontend">Frontend</option>
+                <option value="Backend">Backend</option>
+                <option value="Fullstack">Fullstack</option>
+            </select>
+        </label><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

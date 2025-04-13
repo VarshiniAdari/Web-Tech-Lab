@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Champion Sports Club</title>
+</head>
+<body>
+    <h1>Champion Sports Club</h1>
+    <h3>"Unleashing Potential Through Sport"</h3>
+
+    <h2>Facilities</h2>
+    <p>We provide world-class infrastructure including football fields, indoor courts, swimming pool, and gym.</p>
+
+    <h2>Teams</h2>
+    <table border="1">
+        <tr>
+            <th>Team</th>
+            <th>Coach</th>
+            <th>Training Schedule</th>
+        </tr>
+        <tr>
+            <td>Football U-18</td>
+            <td>Mr. Rakesh</td>
+            <td>Mon-Wed-Fri: 5PM - 7PM</td>
+        </tr>
+        <tr>
+            <td>Badminton Juniors</td>
+            <td>Ms. Anjali</td>
+            <td>Tue-Thu: 4PM - 6PM</td>
+        </tr>
+    </table>
+
+    <h2>Sports Offered</h2>
+    <ul>
+        <li><strong>Football</strong> - Full-sized turf and age-based coaching</li>
+        <li><strong>Badminton</strong> - Indoor courts and shuttle training</li>
+        <li><strong>Swimming</strong> - Olympic-size pool and lifeguard supervision</li>
+        <li><strong>Gym</strong> - Strength, cardio, and personal coaching</li>
+    </ul>
+
+    <h2>Membership Form</h2>
+    <form action="/join" method="POST">
+        <label>Age: <input type="number" name="age" required></label><br><br>
+        <label>Preferred Sport:
+            <select name="sport">
+                <option>Football</option>
+                <option>Badminton</option>
+                <option>Swimming</option>
+                <option>Gym</option>
+            </select>
+        </label><br><br>
+        <label>Time Slot:
+            <select name="slot">
+                <option>Morning</option>
+                <option>Afternoon</option>
+                <option>Evening</option>
+            </select>
+        </label><br><br>
+        <button type="submit">Join Now</button>
+    </form>
+</body>
+</html>

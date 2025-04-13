@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Vizag Trip Blog</title>
+</head>
+<body>
+    <h1>My Trip to Vizag</h1>
+    <p>It was <em>one of the most refreshing experiences</em> I've had. Here are a few places I visited:</p>
+
+    <h2>Vuda Park</h2>
+    <img src="/images/vuda.jpg" alt="Vuda Park" width="300">
+    <figcaption>Beautiful greenery at Vuda Park</figcaption>
+    <p><em>Perfect for a peaceful walk by the beach</em>.</p>
+
+    <h2>Kailasagiri</h2>
+    <img src="/images/kailasagiri.jpg" alt="Kailasagiri" width="300">
+    <figcaption>View from the top of Kailasagiri</figcaption>
+    <p>This hill park has a stunning <em>view of the Bay of Bengal</em>.</p>
+
+    <h2>Thotla Konda</h2>
+    <img src="/images/thotla.jpg" alt="Thotla Konda" width="300">
+    <figcaption>Ancient Buddhist site at Thotla Konda</figcaption>
+    <p>A peaceful place to learn about <em>ancient Buddhist culture</em>.</p>
+
+    <h2>Top Experiences</h2>
+    <ul>
+        <li>Ropeway ride at Kailasagiri</li>
+        <li>Sunset at RK Beach</li>
+        <li>Street food near Vuda Park</li>
+    </ul>
+
+    <h2>Feedback Form</h2>
+    <form action="/submit-feedback" method="POST">
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br>
+
+        <label>Message:</label><br>
+        <textarea name="message" rows="4" required></textarea><br><br>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head><title>TechSpark 2025</title></head>
+<body>
+    <h1>TechSpark 2025</h1>
+    <p>The ultimate gathering for tech enthusiasts, developers, and innovators.</p>
+
+    <nav>
+        <a href="#schedule">Schedule</a> |
+        <a href="#speakers">Speakers</a> |
+        <a href="#register">Register</a>
+    </nav>
+
+    <hr>
+
+    <h2 id="schedule">Event Schedule</h2>
+    <table border="1">
+        <tr><th>Time</th><th>Session</th><th>Speaker</th></tr>
+        <tr><td>10:00 AM</td><td>Opening Keynote</td><td>Dr. Rayna</td></tr>
+        <tr><td>11:30 AM</td><td>AI & ML Today</td><td>Mr. Arjun Mehta</td></tr>
+        <tr><td>2:00 PM</td><td>Building with Web3</td><td>Ms. Sara Jain</td></tr>
+    </table>
+
+    <hr>
+
+    <h2 id="speakers">Speakers</h2>
+    <div>
+        <img src="speaker1.jpg" width="100">
+        <p><strong>Dr. Rayna</strong> - Industry leader in robotics and automation.</p>
+    </div>
+    <div>
+        <img src="speaker2.jpg" width="100">
+        <p><strong>Mr. Arjun Mehta</strong> - AI expert with 12 years of startup experience.</p>
+    </div>
+
+    <hr>
+
+    <h2 id="register">Register Now</h2>
+    <form action="register.php" method="POST">
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br>
+
+        <label>Event Type:</label><br>
+        <select name="event_type" required>
+            <option value="Workshop">Workshop</option>
+            <option value="Seminar">Seminar</option>
+            <option value="Hackathon">Hackathon</option>
+        </select><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head><title>Menu - DelishBite</title></head>
+<body>
+    <h1>DelishBite Menu</h1>
+
+    <nav>
+        <a href="/">About Us</a> |
+        <a href="/menu">Menu</a> |
+        <a href="/reservation">Reserve</a>
+    </nav>
+
+    <img src="{{ url_for('static', filename='sample_food.jpg') }}" alt="Food Image" width="300">
+
+    <h3>Our Menu</h3>
+    <ul>
+        <li>Grilled Vegetable Salad</li>
+        <li>Cheesy Pasta</li>
+        <li>Veggie Pizza</li>
+        <li>Chocolate Lava Cake</li>
+    </ul>
+</body>
+</html>

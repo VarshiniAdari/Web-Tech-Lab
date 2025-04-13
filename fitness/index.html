@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fitness Trainer Profile</title>
+</head>
+<body>
+
+    <h1>John Fitman</h1>
+    <img src="trainer.jpg" alt="Trainer Photo" width="200">
+    <p>John is a certified fitness trainer with 10+ years of experience helping clients achieve their health goals.</p>
+
+    <nav>
+        <a href="#workouts">Workout Plans</a> |
+        <a href="#testimonials">Client Testimonials</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <h2 id="workouts">Workout Plans</h2>
+    <ul>
+        <li><strong>Beginner Plan:</strong> Full body workouts 3 times a week</li>
+        <li><strong>Intermediate Plan:</strong> Muscle building 5-day split</li>
+        <li><strong>Weight Loss Plan:</strong> Cardio and HIIT combo</li>
+    </ul>
+
+    <h2 id="testimonials">Client Testimonials</h2>
+    <p><em>"John helped me lose 10 kgs in 3 months!"</em> - Priya</p>
+    <p><em>"Great customized workouts!"</em> - Rahul</p>
+
+    <h2 id="contact">Sign Up for a Free Trial</h2>
+    <form action="signup.php" method="POST">
+        Name: <input type="text" name="name" required><br><br>
+        Age: <input type="number" name="age" required><br><br>
+        Fitness Goal: <input type="text" name="goal" required><br><br>
+        <input type="submit" value="Sign Up">
+    </form>
+
+</body>
+</html>
